@@ -13,9 +13,9 @@ class MainActivity : AppCompatActivity()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        plus.setOnClickListener { toast("Message : ${Integer.parseInt(editText.text.toString()) + Integer.parseInt(editText2.text.toString())}") }
-        minus.setOnClickListener { toast("Message : ${Integer.parseInt(editText.text.toString()) - Integer.parseInt(editText2.text.toString())}") }
-        into.setOnClickListener { toast("Message : ${Integer.parseInt(editText.text.toString()) * Integer.parseInt(editText2.text.toString())}") }
-        divide.setOnClickListener { toast("Message : ${Integer.parseInt(editText.text.toString()) / Integer.parseInt(editText2.text.toString())}") }
+        plus.setOnClickListener { toast("Answer is : ${Integer.parseInt(editText.text.toString()) + Integer.parseInt(editText2.text.toString())}") }
+        minus.setOnClickListener { toast("Answer is : ${Integer.parseInt(editText.text.toString()) - Integer.parseInt(editText2.text.toString())}") }
+        into.setOnClickListener { toast("Answer is : ${Integer.parseInt(editText.text.toString()) * Integer.parseInt(editText2.text.toString())}") }
+        divide.setOnClickListener { toast("Answer is : ${Integer.parseInt(editText.text.toString()) / Integer.parseInt(editText2.text.toString())}") }
     }
 }
